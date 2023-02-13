@@ -3,6 +3,7 @@
 Created on Thu Jan 26 07:50:25 2023
 
 @author: krzeczyca
+
 """
 
 # Generator haseł
