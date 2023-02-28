@@ -25,9 +25,10 @@ def strong(scope):
     if not scope:
         scope=5
     silnia=1
-    for i in range(1,scope+1):
+    for i in range(1,scope):
         silnia*=i
-    return (silnia)
+        print('%d! = %d' % (i, silnia))
+#    return (silnia)
 
 if __name__ == "__main__":
     sil=give_int("Give number: ")
