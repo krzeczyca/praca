@@ -23,7 +23,7 @@ def give_int(prompt):
 
 def strong(scope):
     if not scope:
-        scope=11
+        scope=5
     silnia=1
     for i in range(1,scope+1):
         silnia*=i
