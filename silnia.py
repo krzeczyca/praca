@@ -30,9 +30,22 @@ def strong(scope):
         print('%d! = %d' % (i, silnia))
 #    return (silnia)
 
+def silnia(number):
+    if number == 1:
+        return 1
+    else:
+        return silnia(number-1)*number
+
+"""
 if __name__ == "__main__":
     sil=give_int("Give number: ")
     print(strong(sil))
+"""
+if __name__ == "__main__":
+    sil=give_int("Give number: ")
+    print(silnia(sil))
+
+
 
 """
     try:
